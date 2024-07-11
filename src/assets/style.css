@@ -1,0 +1,145 @@
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "open-sans-bold";
+    font-style: normal;
+    font-weight: 100;
+    src: url("../assets/fonts/OpenSans/OpenSans-Medium.ttf") format("woff");
+}
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "open-sans";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../assets/fonts/OpenSans/OpenSans-Regular.ttf") format("woff");
+}
+:root{
+    --dark-blue: #020031;
+    --orange: #FFB900;
+    --light-blue: #F9F9F9;
+    --blue: #ECECEC;
+    --purple: #A43375;
+}
+.iyd-text-blue{
+    color: var(--dark-blue);
+}
+.iyd-light-blue-bg{
+    background-color: var(--light-blue) !important;
+}
+.iyd-bg-blue{
+    background-color: var(--blue) !important;
+}
+.spa-bg-purple{
+    background-color: var(--purple) !important;
+}
+.spa-text-purple{
+    color: var(--purple) !important;
+}
+.iyd-blue-bg{
+    background-color: var(--dark-blue);
+}
+body{
+    font-family: 'open-sans', sans-serif;
+}
+ul{
+    padding: 0;
+}
+.bold-font{
+    font-family: "open-sans-bold";
+}
+.iyd-nav{
+    box-shadow: 0px 2px 4px 0px #D3D3D380;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+}
+.xui-bg-none{
+  background: none;
+  border: none;
+  outline: none;
+}
+.search-keyword{
+  border: 1.5px solid #D9D9D9
+}
+.contact{
+    padding: .5rem 1.5rem !important;
+    outline: none;
+    border: none;
+}
+.explore-btn{
+    background-color: #FFF !important;
+    border: 1px solid var(--purple);
+    color: #000;
+}
+.stat:not(.stat:nth-child(3)){
+    border-right: 1px solid #D3D3D3;
+}
+.grid-card:hover{
+    background-color: var(--purple);
+    color: #FFF;
+}
+.grid-card:hover span{
+    background-color: #fff !important;
+}
+.grid-card:hover svg path{
+    stroke: #000;
+}
+.grid-card{
+    box-shadow: 0px 4px 50px 0px #A4337540;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: .4s ease;
+}
+
+.alternative-nav-color{
+  background-color: var(--light-blue);
+}
+  
+  .iyd-header{
+    background: #FCFCFC;
+    z-index: 2;
+    position: relative;
+    backdrop-filter: blur(2rem);
+  }
+  
+  
+ 
+  .hsd-loader-screen {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    color: var(--blue-light);
+}
+.hsd-loader-screen .hsd-loader-holder {
+    margin-top: 16px;
+    width: 100%;
+    height: 4px;
+    background-color: hsl(220, 52%, 15%);
+    position: relative;
+    overflow: hidden;
+}
+.hsd-loader-screen .hsd-loader-holder .hsd-loader-anime {
+    width: 72px;
+    height: 100%;
+    background-color: var(--orange);
+    position: absolute;
+    top: 0;
+    animation-name: loader;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: .8s;
+    animation-timing-function: linear;
+}
+@keyframes loader {
+    from {
+        left: -72px;
+    }
+    to {
+        left: 200px;
+    }
+}
