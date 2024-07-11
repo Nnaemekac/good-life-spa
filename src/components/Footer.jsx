@@ -86,7 +86,7 @@ export default function Footer(){
                 <div className="xui-d-flex xui-flex-jc-center xui-flex-ai-center xui-mt-1-half xui-grid-gap-8">
                     <p className="xui-font-sz-85">Quick Links:</p>
                     <Link to='/' className="xui-font-sz-85 xui-text-white xui-text-dc-none">Home</Link>
-                    <Link to='/' className="xui-font-sz-85 xui-text-white xui-text-dc-none">About us</Link>
+                    <Link to='/about' className="xui-font-sz-85 xui-text-white xui-text-dc-none">About us</Link>
                     <Link to='/' className="xui-font-sz-85 xui-text-white xui-text-dc-none">Book appointment</Link>
                 </div>
                 <div className="xui-d-flex xui-flex-jc-center xui-flex-ai-center xui-mt-3">
