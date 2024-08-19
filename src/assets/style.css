@@ -135,6 +135,33 @@ ul{
     animation-duration: .8s;
     animation-timing-function: linear;
 }
+swiper-slide {
+    width: 360px;
+    transition: 1.2s;
+}
+/* Swiper Stylings */
+/* .swiper-slide-active {
+    max-width: 50%;
+    width: 100%;
+} */
+.swiper{
+    padding: 2rem 0 !important;
+}
+.ca-testimonial-card {
+    background-color: #FFFFFF;
+    color: #000;
+    padding: 2rem;
+    box-shadow: 0px 4px 50px 0px #A4337540;
+}
+.ca-testimonial-card .profile {
+    width: 32px;
+    height: 32px;
+}
+.ca-testimonial-card .testimony-box {
+    padding: 1rem;
+    background-color: var(--purple-light);
+    color: var(--purple-dark);
+}
 @keyframes loader {
     from {
         left: -72px;

@@ -52,11 +52,11 @@ export default function Footer(){
                         <p className='xui-font-sz-120'>Quick Contact</p>
                         <div className="xui-my-1">
                             <p className="xui-font-sz-70 xui-opacity-6">Call us now on</p>
-                            <Link to="/" target="_blank" className="spa-text-purple xui-mt-half xui-text-dc-none xui-font-sz-80 xui-d-inline-block">+234 567 896 8000</Link>
+                            <Link to="tel:+234 567 896 8000" className="spa-text-purple xui-mt-half xui-text-dc-none xui-font-sz-80 xui-d-inline-block">+234 567 896 8000</Link>
                         </div>
                     </div>
                     <div>
-                        <LinkButton text="Book Appointment" route="/" customClass="xui-btn-small xui-btn-block xui-bdr-rad-2"/>
+                        <LinkButton text="Book Appointment" route="tel:+234 567 896 8000" customClass="xui-btn-small xui-btn-block xui-bdr-rad-2"/>
                         <div className="xui-mt-1-half xui-d-flex xui-flex-ai-center xui-grid-gap-2 xui-flex-jc-center">
                             <Link to="/">
                                 <svg width="20" height="20" viewBox="0 0 27 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,11 +87,11 @@ export default function Footer(){
                     <p className="xui-font-sz-85">Quick Links:</p>
                     <Link to='/' className="xui-font-sz-85 xui-text-white xui-text-dc-none">Home</Link>
                     <Link to='/about' className="xui-font-sz-85 xui-text-white xui-text-dc-none">About us</Link>
-                    <Link to='/' className="xui-font-sz-85 xui-text-white xui-text-dc-none">Book appointment</Link>
+                    <Link to='tel:+234 567 896 8000' className="xui-font-sz-85 xui-text-white xui-text-dc-none">Book appointment</Link>
                 </div>
                 <div className="xui-d-flex xui-flex-jc-center xui-flex-ai-center xui-mt-3">
                     <p className="xui-font-sz-80">&copy; 2024 Powered by</p>
-                    <img src={GrascopeLogo} className="xui-img-80 xui-mx-half" alt="" />
+                    <Link to='http://grascope.com/' target="_blank"><img src={GrascopeLogo} className="xui-img-80 xui-mx-half" alt="" /></Link>
                     <p className="xui-font-sz-80">All right reserved</p>
                 </div>
             </section>

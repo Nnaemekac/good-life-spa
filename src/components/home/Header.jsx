@@ -1,5 +1,5 @@
 import CountUp from "react-countup";
-import HeaderImage from "../../assets/images/header-image.png";
+import HeaderImage from "../../assets/images/header-image.jpeg";
 import LinkButton from "../LinkButton";
 
 export default function Header(){
@@ -11,8 +11,8 @@ export default function Header(){
                         <h1 className="xui-lg-font-sz-250 xui-font-sz-200 xui-lg-w-fluid-90 xui-w-fluid-100 xui-font-w-600 bold-font xui-font-w-100">Discover Tranquility and Rejuvenation at Good Life Spa</h1>
                         <p className="xui-opacity-8 xui-lg-w-fluid-80 xui-w-fluid-100 xui-line-height-1-half xui-font-sz-85 xui-mt-half">Step into serene luxury with our signature treatments, designed to relax and rejuvenate your body and mind. Experience ultimate spa care in a tranquil oasis.</p>
                         <div className="xui-mt-1">
-                            <LinkButton text="Book Now" route="/" customClass="xui-btn xui-bdr-rad-1-half" />
-                            <LinkButton text="Explore More" route="/" customClass="xui-btn explore-btn xui-bdr-rad-1-half xui-ml-1 xui-font-w-bold bold-font" />
+                            <LinkButton text="Call us now" route="tel:+234 567 896 8000" customClass="xui-btn xui-bdr-rad-1-half" />
+                            <LinkButton text="Explore More" route="/about" customClass="xui-btn explore-btn xui-bdr-rad-1-half xui-ml-1 xui-font-w-bold bold-font" />
                         </div>
                         <div className="xui-d-flex xui-flex-ai-center xui-mt-1-half">
                             <div className="stat xui-px-1-half">
