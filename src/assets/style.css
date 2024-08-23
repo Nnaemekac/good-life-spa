@@ -147,6 +147,10 @@ swiper-slide {
 .swiper{
     padding: 2rem 0 !important;
 }
+.team-swiper{
+    height: 400px !important;
+    width: 500px !important;
+}
 .ca-testimonial-card {
     background-color: #FFFFFF;
     color: #000;
