@@ -6,7 +6,7 @@ const LinkButton = (props) => {
     return (
         <>
             {
-            !isButton ? <Link to={route} className={`spa-bg-purple xui-text-white xui-font-sz-85 ${customClass}`}>{text}</Link>
+            !isButton ? <Link to={route} className={`spa-bg-purple xui-py-half xui-px-1 xui-text-white xui-font-sz-85 ${customClass}`}>{text}</Link>
             : <button type='submit' style={customStyle} className={`spa-bg-purple xui-text-white xui-font-sz-85 ${customClass}`}>{text}</button>
             }
         </>
