@@ -186,7 +186,9 @@ ul{
     backdrop-filter: blur(2rem);
   }
   
-  
+  .xui-navbar[layout="2"] .links{
+    justify-content: space-between !important;
+  }
  
   .hsd-loader-screen {
     width: 100%;
@@ -232,6 +234,7 @@ swiper-slide {
 .team-swiper{
     height: 400px !important;
     width: 500px !important;
+    padding: 0 !important;
 }
 .ca-testimonial-card {
     background-color: #FFFFFF;
@@ -240,8 +243,11 @@ swiper-slide {
     box-shadow: 0px 4px 50px 0px #A4337540;
 }
 .ca-testimonial-card .profile {
-    width: 32px;
-    height: 32px;
+    width: 50px;
+    height: 50px;
+}
+.viewmore-pedicure-card{
+    width: 33.1%;
 }
 .ca-testimonial-card .testimony-box {
     padding: 1rem;
@@ -254,5 +260,38 @@ swiper-slide {
     }
     to {
         left: 200px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .xui-navbar[menu="2"] .links .main, .xui-navbar[menu="2"] .menu.animate{
+        position: fixed !important;
+    }
+    .xui-navbar .menu span{
+        background-color: #FFF;
+    }
+    .contact{
+        padding: .5rem !important;
+    }
+    .header-stats{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .stat{
+        width: 100%;
+        margin-top: 1rem;
+        text-align: center;
+        border-right: none !important;
+    }
+    .stat:nth-child(1){
+        margin-top: 0;
+    }
+    .xui-navbar[layout="2"] .links .main::before, .xui-navbar[layout="2"] .links .main{
+        border-radius: 0;
+    }
+    .xui-navbar[layout="2"] .links .main{
+        background-color: #000;
+    }
+    .team-swiper{
+        width: 320px !important;
     }
 }

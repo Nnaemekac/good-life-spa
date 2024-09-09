@@ -49,11 +49,11 @@ const Navbar = () => {
                      
                     </ul>
                 </div>
-                <div className="fixed xui-lg-d-block xui-md-d-block xui-d-none">
+                <div className="fixed">
                     <ul>
                         <li>
                             <Link className='contact' to="tel:+234 567 896 8000">
-                                <p className='spa-text-purple xui-mr-3 bold-font'>Contact us</p>
+                                <p className='spa-text-purple xui-mr-3 bold-font xui-lg-d-block xui-md-d-block xui-d-none'>Contact us</p>
                                 <span>
                                     <ArrowRight size={19.2} />
                                 </span>

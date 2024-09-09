@@ -35,11 +35,10 @@ export default function WhyUs(){
                                     <p className="xui-font-sz-85 xui-opacity-8 xui-pl-1" style={{"width": "calc(100% - 15px)"}}>Tranquil ambiance promoting deep relaxation and stress relief.</p>
                                 </li>
                             </ul>
-                            <LinkButton text="Call us now" route="tel:+234 567 896 8000" customClass="xui-btn xui-bdr-rad-1-half xui-mt-1" />
                         </SectionDuplicate>
                     </div>
                     <div className="xui-lg-col-5 xui-col-12 xui-lg-mb-none xui-mb-1-half">
-                        <img className="xui-img-400 xui-ml-auto" src={WhyUsImage} alt="" />
+                        <img className="xui-img-500 xui-ml-auto xui-bdr-rad-1" src={WhyUsImage} alt="" />
                     </div>
                 </div>
             </section>

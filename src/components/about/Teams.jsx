@@ -12,8 +12,8 @@ import 'swiper/css/pagination';
 export default function Teams(){
     return(
         <>
-            <section className="xui-pt-5 xui-pb-2">
-                <div className="xui-d-flex xui-flex-ai-center xui-lg-flex-dir-row xui-flex-dir-column-reverse xui-container">
+            <section className="xui-py-2 xui-container">
+                <div className="xui-d-flex xui-flex-ai-center xui-lg-flex-dir-row xui-flex-dir-column-reverse">
                     <div className="xui-lg-col-6 xui-col-12">
                         <Swiper
                         className="team-swiper"
