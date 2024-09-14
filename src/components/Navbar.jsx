@@ -52,7 +52,7 @@ const Navbar = () => {
                 <div className="fixed">
                     <ul>
                         <li>
-                            <Link className='contact' to="tel:+234 567 896 8000">
+                            <Link className='contact' to={"mailto:blessedadoyi@gmail.com?subject="+ "&body="}>
                                 <p className='spa-text-purple xui-mr-3 bold-font xui-lg-d-block xui-md-d-block xui-d-none'>Contact us</p>
                                 <span>
                                     <ArrowRight size={19.2} />

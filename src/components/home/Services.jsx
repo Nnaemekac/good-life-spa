@@ -21,7 +21,7 @@ export default function Services() {
                 <div className='xui-text-black xui-bdr-rad-2 xui-py-2 xui-lg-py-2'>
                     <div className='xui-d-flex xui-flex-ai-center xui-flex-jc-space-between'>
                         <h2 className='xui-font-sz-150 xui-lg-font-sz-200 bold-font xui-font-w-500'>Massage</h2>
-                        <p className='xui-font-sz-85' onClick={() => setMassageViewMore(!massageViewMore)}>{massageViewMore ? 'View Less' : 'View More'}</p>
+                        <p className='xui-font-sz-85 xui-cursor-pointer' onClick={() => setMassageViewMore(!massageViewMore)}>{massageViewMore ? 'View Less' : 'View More'}</p>
                     </div>
                     <div className='xui-mt-2 xui-d-grid xui-lg-grid-col-3 xui-grid-col-1 xui-grid-gap-1'>
                         <Service
@@ -134,7 +134,7 @@ export default function Services() {
                 <div className='xui-text-black xui-bdr-rad-2 xui-py-2 xui-lg-py-2'>
                     <div className='xui-d-flex xui-flex-ai-center xui-flex-jc-space-between'>
                         <h2 className='xui-font-sz-150 xui-lg-font-sz-200 bold-font xui-font-w-500'>Facials</h2>
-                        <p className='xui-font-sz-85' onClick={() => setFacialsViewMore(!facialsViewMore)}>{facialsViewMore ? 'View Less' : 'View More'}</p>
+                        <p className='xui-font-sz-85 xui-cursor-pointer' onClick={() => setFacialsViewMore(!facialsViewMore)}>{facialsViewMore ? 'View Less' : 'View More'}</p>
                     </div>
                     <div className='xui-mt-2 xui-d-grid xui-lg-grid-col-3 xui-grid-col-1 xui-grid-gap-1'>
                         <Service
@@ -223,7 +223,7 @@ export default function Services() {
                 <div className='xui-text-black xui-bdr-rad-2 xui-py-2 xui-lg-py-2'>
                     <div className='xui-d-flex xui-flex-ai-center xui-flex-jc-space-between'>
                         <h2 className='xui-font-sz-150 xui-lg-font-sz-200 bold-font xui-font-w-500'>Pedicure</h2>
-                        <p className='xui-font-sz-85' onClick={() => setPedicureViewMore(!pedicureViewMore)}>{pedicureViewMore ? 'View Less' : 'View More'}</p>
+                        <p className='xui-font-sz-85 xui-cursor-pointer' onClick={() => setPedicureViewMore(!pedicureViewMore)}>{pedicureViewMore ? 'View Less' : 'View More'}</p>
                     </div>
                     <div className='xui-mt-2 xui-d-grid xui-lg-grid-col-3 xui-grid-col-1 xui-grid-gap-1'>
                         <Service
@@ -312,7 +312,7 @@ export default function Services() {
                 <div className='xui-text-black xui-bdr-rad-2 xui-py-2 xui-lg-py-2'>
                     <div className='xui-d-flex xui-flex-ai-center xui-flex-jc-space-between'>
                         <h2 className='xui-font-sz-150 xui-lg-font-sz-200 bold-font xui-font-w-500'>Skincare Treatment</h2>
-                        <p className='xui-font-sz-85' onClick={() => setSkincareViewMore(!skincareViewMore)}>{skincareViewMore ? 'View Less' : 'View More'}</p>
+                        <p className='xui-font-sz-85 xui-cursor-pointer' onClick={() => setSkincareViewMore(!skincareViewMore)}>{skincareViewMore ? 'View Less' : 'View More'}</p>
                     </div>
                     <div className='xui-mt-2 xui-d-grid xui-lg-grid-col-3 xui-grid-col-1 xui-grid-gap-1'>
                         <Service
