@@ -293,4 +293,7 @@ swiper-slide {
     .team-swiper{
         width: 320px !important;
     }
+    .viewmore-pedicure-card{
+        width: 100%;
+    }
 }

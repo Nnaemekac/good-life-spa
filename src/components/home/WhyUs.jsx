@@ -10,7 +10,7 @@ export default function WhyUs(){
       }, [])
     return(
         <>
-            <section className="iyd-header xui-pt-5 xui-pb-2">
+            <section className="iyd-header xui-pt-5 xui-pb-2 xui-overflow-x-hidden">
                 <div className="xui-d-flex xui-flex-ai-center xui-lg-flex-dir-row xui-flex-dir-column-reverse xui-container">
                     <div data-aos="fade-right" data-aos-duration="800" className="xui-lg-col-7 xui-col-12">
                         <SectionDuplicate paragraphHeading="Why Choose Us" mainHeading="Discover Our Commitment" mainParagraph="Our commitment extends beyond treatments; it's a promise of exceptional care and personalized attention, designed to elevate your spa experience.">
