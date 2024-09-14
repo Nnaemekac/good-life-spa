@@ -152,7 +152,7 @@ ul{
 .explore-btn{
     background-color: #FFF !important;
     border: 1px solid var(--purple);
-    color: #000;
+    color: var(--purple);
 }
 .stat:not(.stat:nth-child(3)){
     border-right: 1px solid #D3D3D3;

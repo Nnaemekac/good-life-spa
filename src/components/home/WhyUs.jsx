@@ -1,13 +1,18 @@
 import WhyUsImage from "../../assets/images/why-us.jpg";
 import LinkButton from "../LinkButton";
 import SectionDuplicate from "../SectionDuplicate";
+import AOS from 'aos';
+import { useEffect } from "react";
 
 export default function WhyUs(){
+    useEffect(() => {
+        AOS.init();
+      }, [])
     return(
         <>
             <section className="iyd-header xui-pt-5 xui-pb-2">
                 <div className="xui-d-flex xui-flex-ai-center xui-lg-flex-dir-row xui-flex-dir-column-reverse xui-container">
-                    <div className="xui-lg-col-7 xui-col-12">
+                    <div data-aos="fade-right" data-aos-duration="800" className="xui-lg-col-7 xui-col-12">
                         <SectionDuplicate paragraphHeading="Why Choose Us" mainHeading="Discover Our Commitment" mainParagraph="Our commitment extends beyond treatments; it's a promise of exceptional care and personalized attention, designed to elevate your spa experience.">
                             <ul>
                                 <li className="xui-d-flex xui-flex-ai-center xui-my-1-half">
@@ -37,7 +42,7 @@ export default function WhyUs(){
                             </ul>
                         </SectionDuplicate>
                     </div>
-                    <div className="xui-lg-col-5 xui-col-12 xui-lg-mb-none xui-mb-1-half">
+                    <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="800" className="xui-lg-col-5 xui-col-12 xui-lg-mb-none xui-mb-1-half">
                         <img className="xui-img-500 xui-h-400 xui-ml-auto xui-bdr-rad-1" src={WhyUsImage} alt="" />
                     </div>
                 </div>
