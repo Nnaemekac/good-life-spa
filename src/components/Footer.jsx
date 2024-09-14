@@ -61,7 +61,7 @@ export default function Footer(){
                         </div>
                     </div>
                     <div>
-                        <LinkButton text="Book Appointment" route={"mailto:blessedadoyi@gmail.com?subject="+ "&body="} customClass="xui-btn-small xui-btn-block xui-bdr-rad-2"/>
+                        <LinkButton text="Book Appointment" route={"https://wa.me/2347030218746"} customClass="xui-btn-small xui-btn-block xui-bdr-rad-2"/>
                         <div className="xui-mt-1-half xui-d-flex xui-flex-ai-center xui-grid-gap-2 xui-flex-jc-center">
                             <Link to="https://www.instagram.com/the.goodlife_spa?igsh=MW1sd25razY4YXA0aQ==" target='_blank'>
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
