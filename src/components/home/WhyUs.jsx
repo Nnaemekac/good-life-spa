@@ -38,7 +38,7 @@ export default function WhyUs(){
                         </SectionDuplicate>
                     </div>
                     <div className="xui-lg-col-5 xui-col-12 xui-lg-mb-none xui-mb-1-half">
-                        <img className="xui-img-500 xui-ml-auto xui-bdr-rad-1" src={WhyUsImage} alt="" />
+                        <img className="xui-img-500 xui-h-400 xui-ml-auto xui-bdr-rad-1" src={WhyUsImage} alt="" />
                     </div>
                 </div>
             </section>

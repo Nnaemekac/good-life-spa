@@ -1,5 +1,5 @@
 import { Link,  } from "react-router-dom";
-import Logo from "../assets/images/logo.png";
+import Logo from "../assets/images/footer-logo.png";
 import GrascopeLogo from "../assets/images/grascope-logo.png";
 import LinkButton from "./LinkButton";
 
@@ -7,8 +7,7 @@ export default function Footer(){
 
     return(
         <>
-            <section className="xui-pt-3 xui-pb-5 xui-container xui-bg-black xui-text-white footer">
-                <h3 className="xui-font-sz-180 xui-text-center">Get Update On Our Spa Experience </h3>
+            <section className="xui-pt-1 xui-pb-5 xui-container xui-bg-black xui-text-white footer">
                 {/* <form>
                     <div className="xui-d-flex xui-flex-jc-space-between xui-flex-ai-center xui-max-w-400 xui-w-fluid-100 xui-mx-auto xui-mt-1 xui-p-1 xui-pos-relative xui-bg-white xui-bdr-rad-1-half">
                         <input style={{"outline": "none", "border": "none", "background": "none"}} className="xui-pl-1 xui-font-sz-90" type="text" placeholder="Your email address" />
@@ -18,39 +17,47 @@ export default function Footer(){
                 
                 <div className='xui-d-grid xui-lg-grid-col-4 xui-grid-col-1 xui-grid-col-1 xui-lg-grid-gap-1 xui-grid-gap-2 xui-mt-3'>
                     <div>
-                        <img className="xui-mt-1 xui-img-120" src={Logo} alt="" />
-                        <p className='xui-font-sz-85 xui-opacity-8 xui-mt-1 xui-line-height-1-half'>Welcome to Good Life Spa, your sanctuary for relaxation and rejuvenation. </p>
+                        <img className="xui-img-120" src={Logo} alt="" />
+                        <p className='xui-font-sz-100 xui-opacity-8 xui-mt-1 xui-line-height-1-half'>Welcome to Good Life Spa, your sanctuary for relaxation and rejuvenation. </p>
                     </div>
                     <div>
                         <p className='xui-font-sz-120'>Contact Us</p>
                         <div className="xui-my-1">
-                            <p className="xui-font-sz-70 xui-opacity-6">Main Branch</p>
-                            <Link to="https://www.google.com/travel/search?q=NO.1%20pendulum%20close%20parkland%20estate%20Novotel%20hotel%20stadium%20road&g2lb=4814050%2C4874190%2C4893075%2C4965990%2C4969803%2C72277293%2C72302247%2C72317059%2C72406588%2C72414906%2C72421566%2C72470899%2C72471280%2C72472051%2C72473841%2C72481459%2C72485658%2C72486593%2C72494250%2C72499705%2C72536387%2C72569093%2C72570850%2C72602734%2C72614661%2C72616120%2C72619927%2C72620306%2C72626061%2C72647020%2C72648289%2C72658035%2C72663438%2C72671093%2C72672981%2C72686036%2C72691805&hl=en-NG&gl=ng&ssta=1&ts=CAESCAoCCAMKAggDGh4SHBIUCgcI6A8QCBgZEgcI6A8QCBgaGAEyBAgAEAAqBwoFOgNOR04&qs=CAEyJkNoZ0luUExNMnU2YnFhX0NBUm9MTDJjdk1YUnNabko0ZG1vUUFROAlCCRFWmkr9KscQIUIJEYVUkIacxhcjWrABMq0BqgGpAQoJL20vMDluOGYzEAEqNSIxbm8gMSBwZW5kdWx1bSBjbG9zZSBwYXJrbGFuZCBlc3RhdGUgbm92b3RlbCBob3RlbCgAMh8QASIb5PS7TlK-9eBHqB6ElCf_uClL5LVfhhJbGzrGMkIQAiI-bm8gMSBwZW5kdWx1bSBjbG9zZSBwYXJrbGFuZCBlc3RhdGUgbm92b3RlbCBob3RlbCBzdGFkaXVtIHJvYWRqHAoaDQAUzUcSEwiOi_eZlIyIAxVKQBUIHRPvKW8&ap=aAE&ictx=111&cshid=1724451984682251&ved=0CAAQ1_ICahcKEwiA-byilIyIAxUAAAAAHQAAAAAQJg" target="_blank" className="spa-text-purple xui-mt-half xui-text-dc-none xui-d-inline-block">
-                                <p className="xui-font-sz-80">No 1 pendulum close, directly opposite parkland estate Novotel hotel stadium road</p>
-                            </Link>
+                            <p className="xui-font-sz-85 xui-opacity-6">Main Branch</p>
+                            <div className="spa-text-purple xui-font-w-500 bold-font xui-mt-half xui-text-dc-none xui-d-inline-block">
+                                <p className="xui-font-sz-90">The Good Life Spa</p>
+                                <p className="xui-font-sz-90">No 1 pendulum close, directly</p>
+                                <p className="xui-font-sz-90">opposite parkland estate Novotel hotel stadium road</p>
+                            </div>
+                        </div>
+                        <div className="xui-my-1">
+                            <p className="xui-font-sz-85 xui-opacity-6">Other Branch</p>
+                            <div className="spa-text-purple xui-font-w-500 bold-font xui-mt-half xui-text-dc-none xui-d-inline-block">
+                                <p className="xui-font-sz-90">Novotel hotel stadium road</p>
+                            </div>
                         </div>
                         {/* <div className="xui-my-1">
-                            <p className="xui-font-sz-70 xui-opacity-6">Branch 2</p>
+                            <p className="xui-font-sz-85 xui-opacity-6">Branch 2</p>
                             <Link to="/" target="_blank" className="spa-text-purple xui-mt-half xui-text-dc-none xui-d-inline-block">
-                                <p className="xui-font-sz-80">Good Life Spa</p>
-                                <p className="xui-font-sz-80 xui-mt-half">456 Tranquility Road Old GRA Port</p>
-                                <p className="xui-font-sz-80 xui-mt-half">Harcourt, Rivers State Nigeria</p>
+                                <p className="xui-font-sz-90">Good Life Spa</p>
+                                <p className="xui-font-sz-90 xui-mt-half">456 Tranquility Road Old GRA Port</p>
+                                <p className="xui-font-sz-90 xui-mt-half">Harcourt, Rivers State Nigeria</p>
                             </Link>
                         </div>
                         <div className="xui-my-1">
-                            <p className="xui-font-sz-70 xui-opacity-6">Branch 3</p>
+                            <p className="xui-font-sz-85 xui-opacity-6">Branch 3</p>
                             <Link to="/" target="_blank" className="spa-text-purple xui-mt-half xui-text-dc-none xui-d-inline-block">
-                                <p className="xui-font-sz-80">Good Life Spa</p>
-                                <p className="xui-font-sz-80 xui-mt-half">789 Serenity Street New Layout</p>
-                                <p className="xui-font-sz-80 xui-mt-half">Port Harcourt, Rivers State Nigeria</p>
+                                <p className="xui-font-sz-90">Good Life Spa</p>
+                                <p className="xui-font-sz-90 xui-mt-half">789 Serenity Street New Layout</p>
+                                <p className="xui-font-sz-90 xui-mt-half">Port Harcourt, Rivers State Nigeria</p>
                             </Link>
                         </div> */}
                     </div>
                     <div>
                         <p className='xui-font-sz-120'>Quick Contact</p>
                         <div className="xui-my-1">
-                            <p className="xui-font-sz-70 xui-opacity-6">Call us now on</p>
-                            <Link to="tel:+234 567 896 8000" className="spa-text-purple xui-mt-half xui-text-dc-none xui-font-sz-80 xui-d-inline-block">+234 567 896 8000</Link>
+                            <p className="xui-font-sz-85 xui-opacity-6">Call us now on</p>
+                            <Link to="tel:+234 567 896 8000" className="spa-text-purple xui-mt-half xui-text-dc-none xui-font-sz-90 xui-d-inline-block">+234 567 896 8000</Link>
                         </div>
                     </div>
                     <div>
@@ -73,9 +80,9 @@ export default function Footer(){
                     {/* <Link to='tel:+234 567 896 8000' className="xui-font-sz-85 xui-text-white xui-text-dc-none">Book appointment</Link> */}
                 </div>
                 <div className="xui-d-flex xui-flex-jc-center xui-flex-ai-center xui-mt-3">
-                    <p className="xui-font-sz-80">&copy; 2024 Powered by</p>
+                    <p className="xui-font-sz-90">&copy; 2024 Powered by</p>
                     <Link to='http://grascope.com/' target="_blank"><img src={GrascopeLogo} className="xui-img-80 xui-mx-half" alt="" /></Link>
-                    <p className="xui-font-sz-80">All right reserved</p>
+                    <p className="xui-font-sz-90">All right reserved</p>
                 </div>
             </section>
     

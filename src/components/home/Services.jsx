@@ -11,6 +11,7 @@ export default function Services() {
     const [massageViewMore, setMassageViewMore] = useState(false);
     const [pedicureViewMore, setPedicureViewMore] = useState(false);
     const [skincareViewMore, setSkincareViewMore] = useState(false);
+    const [facialsViewMore, setFacialsViewMore] = useState(false);
     return (
         <>
             <section className='xui-py-3 xui-container'>
@@ -126,6 +127,95 @@ export default function Services() {
                          serviceDesc="Relieve stress and tension with our variety of therapeutic massages, tailored to soothe your muscles and enhance your well-being."
                          servicePrice="20,000"
                          />
+                        
+                    </div>
+                    )}
+                </div>
+                <div className='xui-text-black xui-bdr-rad-2 xui-py-2 xui-lg-py-2'>
+                    <div className='xui-d-flex xui-flex-ai-center xui-flex-jc-space-between'>
+                        <h2 className='xui-font-sz-150 xui-lg-font-sz-200 bold-font xui-font-w-500'>Facials</h2>
+                        <p className='xui-font-sz-85' onClick={() => setFacialsViewMore(!facialsViewMore)}>{facialsViewMore ? 'View Less' : 'View More'}</p>
+                    </div>
+                    <div className='xui-mt-2 xui-d-grid xui-lg-grid-col-3 xui-grid-col-1 xui-grid-gap-1'>
+                        <Service
+                         icon={
+                         <>
+                            <svg width="35" height="35" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g clip-path="url(#clip0_209_997)">
+                           <path d="M13.81 9.45646L13.8097 9.4567C11.9086 11.371 10.665 13.9342 10.0173 16.8819L9.76086 18.0492L8.58569 18.2668C8.53082 18.277 8.4753 18.2894 8.4172 18.3047C7.48588 18.5557 6.78755 19.3119 6.4098 20.3251C6.03573 21.336 5.9788 22.6008 6.32228 23.8843L13.81 9.45646ZM13.81 9.45646C16.035 7.21516 19.1568 5.8784 23.2518 5.8784M13.81 9.45646L23.2518 5.8784M36.7439 18.0515L36.4864 16.8802C35.8387 13.9339 34.595 11.3693 32.6946 9.45739L36.7439 18.0515ZM36.7439 18.0515L37.9238 18.266M36.7439 18.0515L37.9238 18.266M37.9238 18.266C37.9667 18.2738 38.0173 18.2854 38.0754 18.3015L38.0841 18.3039M37.9238 18.266L38.0841 18.3039M38.0841 18.3039L38.0928 18.3063M38.0841 18.3039L38.0928 18.3063M38.0928 18.3063C39.0242 18.5549 39.7235 19.3108 40.1018 20.3277C40.4755 21.3363 40.5326 22.601 40.1888 23.8851C39.6871 25.7574 38.4203 27.2859 36.922 27.6675L36.049 27.8898M38.0928 18.3063L36.049 27.8898M36.049 27.8898L35.7031 28.7216M36.049 27.8898L35.7031 28.7216M35.7031 28.7216C33.3322 34.4225 28.193 38.3645 23.2518 38.3645C18.3091 38.3645 13.1698 34.4191 10.8007 28.7199L10.4557 27.8899M35.7031 28.7216L10.4557 27.8899M10.4557 27.8899L9.585 27.6664M10.4557 27.8899L9.585 27.6664M9.585 27.6664C8.08828 27.2822 6.82417 25.754 6.32231 23.8844L9.585 27.6664ZM23.2518 5.8784C27.3476 5.8784 30.4665 7.21633 32.6945 9.45724L23.2518 5.8784Z" stroke="white" stroke-width="3.60335"/>
+                           </g>
+                           <defs>
+                           <clipPath id="clip0_209_997">
+                           <rect width="45.5867" height="45.5867" fill="white" transform="translate(0.458496 0.277832)"/>
+                           </clipPath>
+                           </defs>
+                           </svg>
+                         </>}
+                         serviceName="Regular facials"
+                         serviceDesc="Revitalize your skin with our bespoke facial treatments, using premium products to cleanse, and rejuvenate your complexion."
+                         servicePrice="20,000"
+                         />
+                        <Service
+                         icon={
+                         <>
+                            <svg width="35" height="35" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g clip-path="url(#clip0_209_997)">
+                           <path d="M13.81 9.45646L13.8097 9.4567C11.9086 11.371 10.665 13.9342 10.0173 16.8819L9.76086 18.0492L8.58569 18.2668C8.53082 18.277 8.4753 18.2894 8.4172 18.3047C7.48588 18.5557 6.78755 19.3119 6.4098 20.3251C6.03573 21.336 5.9788 22.6008 6.32228 23.8843L13.81 9.45646ZM13.81 9.45646C16.035 7.21516 19.1568 5.8784 23.2518 5.8784M13.81 9.45646L23.2518 5.8784M36.7439 18.0515L36.4864 16.8802C35.8387 13.9339 34.595 11.3693 32.6946 9.45739L36.7439 18.0515ZM36.7439 18.0515L37.9238 18.266M36.7439 18.0515L37.9238 18.266M37.9238 18.266C37.9667 18.2738 38.0173 18.2854 38.0754 18.3015L38.0841 18.3039M37.9238 18.266L38.0841 18.3039M38.0841 18.3039L38.0928 18.3063M38.0841 18.3039L38.0928 18.3063M38.0928 18.3063C39.0242 18.5549 39.7235 19.3108 40.1018 20.3277C40.4755 21.3363 40.5326 22.601 40.1888 23.8851C39.6871 25.7574 38.4203 27.2859 36.922 27.6675L36.049 27.8898M38.0928 18.3063L36.049 27.8898M36.049 27.8898L35.7031 28.7216M36.049 27.8898L35.7031 28.7216M35.7031 28.7216C33.3322 34.4225 28.193 38.3645 23.2518 38.3645C18.3091 38.3645 13.1698 34.4191 10.8007 28.7199L10.4557 27.8899M35.7031 28.7216L10.4557 27.8899M10.4557 27.8899L9.585 27.6664M10.4557 27.8899L9.585 27.6664M9.585 27.6664C8.08828 27.2822 6.82417 25.754 6.32231 23.8844L9.585 27.6664ZM23.2518 5.8784C27.3476 5.8784 30.4665 7.21633 32.6945 9.45724L23.2518 5.8784Z" stroke="white" stroke-width="3.60335"/>
+                           </g>
+                           <defs>
+                           <clipPath id="clip0_209_997">
+                           <rect width="45.5867" height="45.5867" fill="white" transform="translate(0.458496 0.277832)"/>
+                           </clipPath>
+                           </defs>
+                           </svg>
+                         </>}
+                         serviceName="Combo facials"
+                         serviceDesc="Revitalize your skin with our bespoke facial treatments, using premium products to cleanse, and rejuvenate your complexion."
+                         servicePrice="30,000"
+                         />
+                        <Service
+                         icon={
+                         <>
+                            <svg width="35" height="35" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g clip-path="url(#clip0_209_997)">
+                           <path d="M13.81 9.45646L13.8097 9.4567C11.9086 11.371 10.665 13.9342 10.0173 16.8819L9.76086 18.0492L8.58569 18.2668C8.53082 18.277 8.4753 18.2894 8.4172 18.3047C7.48588 18.5557 6.78755 19.3119 6.4098 20.3251C6.03573 21.336 5.9788 22.6008 6.32228 23.8843L13.81 9.45646ZM13.81 9.45646C16.035 7.21516 19.1568 5.8784 23.2518 5.8784M13.81 9.45646L23.2518 5.8784M36.7439 18.0515L36.4864 16.8802C35.8387 13.9339 34.595 11.3693 32.6946 9.45739L36.7439 18.0515ZM36.7439 18.0515L37.9238 18.266M36.7439 18.0515L37.9238 18.266M37.9238 18.266C37.9667 18.2738 38.0173 18.2854 38.0754 18.3015L38.0841 18.3039M37.9238 18.266L38.0841 18.3039M38.0841 18.3039L38.0928 18.3063M38.0841 18.3039L38.0928 18.3063M38.0928 18.3063C39.0242 18.5549 39.7235 19.3108 40.1018 20.3277C40.4755 21.3363 40.5326 22.601 40.1888 23.8851C39.6871 25.7574 38.4203 27.2859 36.922 27.6675L36.049 27.8898M38.0928 18.3063L36.049 27.8898M36.049 27.8898L35.7031 28.7216M36.049 27.8898L35.7031 28.7216M35.7031 28.7216C33.3322 34.4225 28.193 38.3645 23.2518 38.3645C18.3091 38.3645 13.1698 34.4191 10.8007 28.7199L10.4557 27.8899M35.7031 28.7216L10.4557 27.8899M10.4557 27.8899L9.585 27.6664M10.4557 27.8899L9.585 27.6664M9.585 27.6664C8.08828 27.2822 6.82417 25.754 6.32231 23.8844L9.585 27.6664ZM23.2518 5.8784C27.3476 5.8784 30.4665 7.21633 32.6945 9.45724L23.2518 5.8784Z" stroke="white" stroke-width="3.60335"/>
+                           </g>
+                           <defs>
+                           <clipPath id="clip0_209_997">
+                           <rect width="45.5867" height="45.5867" fill="white" transform="translate(0.458496 0.277832)"/>
+                           </clipPath>
+                           </defs>
+                           </svg>
+                         </>}
+                         serviceName="Derma planning + Hydro jelly facials"
+                         serviceDesc="Revitalize your skin with our bespoke facial treatments, using premium products to cleanse, and rejuvenate your complexion."
+                         servicePrice="35,000"
+                         />
+                        
+                    </div>
+                    {facialsViewMore && (
+                        <div className='xui-mt-2 xui-d-flex xui-flex-jc-center xui-grid-gap-1'>
+                        <div className='viewmore-pedicure-card'>
+                        <Service
+                         icon={
+                         <>
+                            <svg width="35" height="35" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g clip-path="url(#clip0_209_997)">
+                           <path d="M13.81 9.45646L13.8097 9.4567C11.9086 11.371 10.665 13.9342 10.0173 16.8819L9.76086 18.0492L8.58569 18.2668C8.53082 18.277 8.4753 18.2894 8.4172 18.3047C7.48588 18.5557 6.78755 19.3119 6.4098 20.3251C6.03573 21.336 5.9788 22.6008 6.32228 23.8843L13.81 9.45646ZM13.81 9.45646C16.035 7.21516 19.1568 5.8784 23.2518 5.8784M13.81 9.45646L23.2518 5.8784M36.7439 18.0515L36.4864 16.8802C35.8387 13.9339 34.595 11.3693 32.6946 9.45739L36.7439 18.0515ZM36.7439 18.0515L37.9238 18.266M36.7439 18.0515L37.9238 18.266M37.9238 18.266C37.9667 18.2738 38.0173 18.2854 38.0754 18.3015L38.0841 18.3039M37.9238 18.266L38.0841 18.3039M38.0841 18.3039L38.0928 18.3063M38.0841 18.3039L38.0928 18.3063M38.0928 18.3063C39.0242 18.5549 39.7235 19.3108 40.1018 20.3277C40.4755 21.3363 40.5326 22.601 40.1888 23.8851C39.6871 25.7574 38.4203 27.2859 36.922 27.6675L36.049 27.8898M38.0928 18.3063L36.049 27.8898M36.049 27.8898L35.7031 28.7216M36.049 27.8898L35.7031 28.7216M35.7031 28.7216C33.3322 34.4225 28.193 38.3645 23.2518 38.3645C18.3091 38.3645 13.1698 34.4191 10.8007 28.7199L10.4557 27.8899M35.7031 28.7216L10.4557 27.8899M10.4557 27.8899L9.585 27.6664M10.4557 27.8899L9.585 27.6664M9.585 27.6664C8.08828 27.2822 6.82417 25.754 6.32231 23.8844L9.585 27.6664ZM23.2518 5.8784C27.3476 5.8784 30.4665 7.21633 32.6945 9.45724L23.2518 5.8784Z" stroke="white" stroke-width="3.60335"/>
+                           </g>
+                           <defs>
+                           <clipPath id="clip0_209_997">
+                           <rect width="45.5867" height="45.5867" fill="white" transform="translate(0.458496 0.277832)"/>
+                           </clipPath>
+                           </defs>
+                           </svg>
+                         </>}
+                         serviceName="Hydra facials"
+                         serviceDesc="Revitalize your skin with our bespoke facial treatments, using premium products to cleanse, and rejuvenate your complexion."
+                         servicePrice="30,000"
+                         />
+                        </div>
+                        
                         
                     </div>
                     )}
